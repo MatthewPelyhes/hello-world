@@ -1,0 +1,27 @@
+body {
+  margin: 0
+}
+#big-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 1em;
+  grid-auto-rows: minmax(10rem, auto);
+}
+
+#navbar {
+  position:fixed;
+  max-width: 20rem;
+  height: 100%;
+  border-right: 2px solid black;
+  display: grid;
+}
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: none; /*Figure this stupid thing out*/
+  max-width: 20rem;
+}
+.nav-list {
+  list-style-type: none;
+}
